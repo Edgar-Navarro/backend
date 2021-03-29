@@ -1,6 +1,5 @@
-var tool = require('../function/tools')
+var tool = require('../function/tools');
 var formidable = require('formidable');
-
 
 exports.index = async (req, res, next) =>{
 

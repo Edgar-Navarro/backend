@@ -1,3 +1,4 @@
+
 document.addEventListener("DOMContentLoaded", function (event) {
 
     const inicio = async () =>{
@@ -131,9 +132,12 @@ document.addEventListener("DOMContentLoaded", function (event) {
        async function consultar(e){
         e.preventDefault();
         try {
+            
+           console.log(window.location.origin);
+           const ruta = window.location.origin;
             const param = document.querySelector("#entrada").value;
             let datos = {datos: param};
-            const data = await fetch(`https://polar-falls-96569.herokuapp.com/calcular`, {
+            const data = await fetch(`${ruta}/calcular`, {
                 method: "POST",
                 body: JSON.stringify(datos),
                 headers: {
