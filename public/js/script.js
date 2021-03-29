@@ -133,7 +133,7 @@ document.addEventListener("DOMContentLoaded", function (event) {
         try {
             const param = document.querySelector("#entrada").value;
             let datos = {datos: param};
-            const data = await fetch(`http://localhost:4000/calcular`, {
+            const data = await fetch(`https://polar-falls-96569.herokuapp.com/calcular`, {
                 method: "POST",
                 body: JSON.stringify(datos),
                 headers: {
