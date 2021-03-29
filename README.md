@@ -1,21 +1,8 @@
 # backend
 Evaluación 1 Backend 
-# Título del Proyecto
+# Calculadora
 
-Realice	una calculadora	de	operaciones	básicas	que	resuelva	las	operaciones	dada	una	
-cadena.	
-Por	ejemplo:	Si	el	usuario	introduce	4-7+8+9/2*3	el	programa	deberá mostrar	como	
-resultado	6.5	
-Recuerde:	
-• Deberá realizar	las	4	operaciones	básicas	en	la	misma	cadena	suma	+,	resta	-,	
-Multiplicación	*,	División	/	
-• La	longitud	maxima	a	ingresar	de	la	cadena	serán	20	caracteres.
-• Se	deberán	respetar	la	prioridad	de	los	operadores.
-• Punto	extra	si	se	utilizan	paréntesis	para	agrupamiento	y	multiplicación	
-• Punto	Extra si	se	realiza	potencia	o	raı́z	cuadrada
-• Punto	Extra si	se	realizan	operaciones	de	2	o	mas	números (23-14+123/3*49)
-• Queda	prohibido	utilizar	la	función	EVAL	o	equivalentes,	o	en	su	defecto	incluir	
-alguna	librerı́a	que	realice	todo	el	proceso.	
+	En la interfaz se muestra una calculadora en donde se puede ingresar lasa operaciones a consultar, una vez optenido los valores se envían al servidor donde se procesa la información, principalmente se sustituyen los simbolos con letras para poder diferenciarlos y poder hacer la separaciones con expresiones regulares y realizar los calculos respetando las prioridades de los operadores, primero se evalua que si al contener paréntesis sean resueltos primero para luego continuar en el orden que correspondan dependiendo de los signos  
 
 ## Comenzando 🚀
 
